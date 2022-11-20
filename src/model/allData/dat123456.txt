@@ -1,0 +1,45 @@
+{
+    "userId":"123445",
+"perinfo":{
+  "firstName":"dilip",
+  "middleName":"sdfd",
+  "lastName":"dcdc",
+  "adhar" :"zcvxcv",
+  "gender":"sdfgfdg",
+  "district":"xvbfvb",
+  "taluko":"dxvfddv",
+  "village":"xfvbc",
+  "homeAddrs":"fbfdvb",
+  "dob":"dfbgfdb"
+  },
+  "comminfo":{
+      "mobileNumber":"hgj",
+    "email":"jhasxasjh"
+ },
+ "farmInfo":{
+
+    "district":"asdfcdsg",
+    "taluka":"fdgdfg",
+    "village":"fdgtrefe",
+    "surveyNum":"etrgtref",
+    "upin":"grtegtr"
+},
+  "yeildInfo":{
+  "landTitle":"rtgtrg",
+    "year":"rtgr",
+    "cropName":"trgtr",
+    "quintity":"trgr",
+    "unit":"trgr",
+    "totalPrice":"trgrt",
+    "cropType":"rtgtr",
+    "harvestTech":"ertge"
+  },
+  "bankInfo":{
+    "bankName":"ertgre",
+    "branchName":"etgregtgre",
+    "taluka":"erter",
+    "accountNumber":"erte",
+    "ifsc":"wreefre"
+  }
+
+}
