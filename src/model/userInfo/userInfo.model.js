@@ -18,7 +18,7 @@ const userInfoDB =require('./userInfo.mongo')
 //      return result;
 // }
 const getAllUser =async()=>{
-    const result = await userInfoDB.find({},{name:1,id:1,"_id":0});
+    const result = await userInfoDB.find({},{name:1,id:1,isGreen:1,"_id":0});
     return result;
 }
 
