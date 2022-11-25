@@ -6,7 +6,8 @@ const userInfoSchema = new mongoose.Schema({
   gender:String,
   age:String,
   dob:String,
-  address:String
+  address:String,
+  isGreen:Boolean 
 });
 
 module.exports = mongoose.model("userInfo", userInfoSchema);
