@@ -1,5 +1,7 @@
 const express= require('express');
 const mongoose = require('mongoose')
+  const fs = require('fs');
+  const path = require('path');
 const cors= require("cors")
 require("dotenv").config();
 const {userRouter} =require('./routes/alluser/users.route')
@@ -14,7 +16,18 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/',(req,res)=>{
+    console.log(__dirname)
+
   res.send("hii there");
+});
+
+app.get('/a', async (req, res) => {
+  console.log(__dirname)
+
+  const dirPath = path.join(__dirname, '/pictures');
+
+   fs.mkdirSync(dirPath);
+  res.send("CREATED");
 });
 
 
